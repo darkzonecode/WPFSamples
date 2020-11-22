@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BindValidation", "Data Bind
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindConversion", "Data Binding\BindConversion\BindConversion.csproj", "{0B17F6B9-E3FC-481A-A4E4-06B3BD2A7E12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleBinding", "Data Binding\SimpleBinding\SimpleBinding.csproj", "{E5AAEEF2-9739-4EAA-950A-288D39440A98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{0B17F6B9-E3FC-481A-A4E4-06B3BD2A7E12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B17F6B9-E3FC-481A-A4E4-06B3BD2A7E12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B17F6B9-E3FC-481A-A4E4-06B3BD2A7E12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5AAEEF2-9739-4EAA-950A-288D39440A98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5AAEEF2-9739-4EAA-950A-288D39440A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5AAEEF2-9739-4EAA-950A-288D39440A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5AAEEF2-9739-4EAA-950A-288D39440A98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F404761A-C299-4F59-B8EE-990B09B2C4AC} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
 		{0B17F6B9-E3FC-481A-A4E4-06B3BD2A7E12} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
+		{E5AAEEF2-9739-4EAA-950A-288D39440A98} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81021A20-F28E-4749-B4DC-68240B8908A5}
