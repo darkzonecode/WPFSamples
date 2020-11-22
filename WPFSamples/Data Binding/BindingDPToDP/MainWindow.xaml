@@ -1,0 +1,20 @@
+﻿<Window x:Class="BindingDPToDP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BindingDPToDP"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="40,21,0,0" Text="Choose a color:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <ComboBox x:Name="myComboBox" HorizontalAlignment="Left" Margin="40,57,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="Green"/>
+            <ComboBoxItem Content="Blue"/>
+            <ComboBoxItem Content="Red"/>
+        </ComboBox>
+        <Canvas HorizontalAlignment="Left" Height="74" Margin="67,130,0,0" VerticalAlignment="Top" Width="69" 
+                Background="{Binding SelectedItem.Content, ElementName=myComboBox, Mode=OneWay}"/>
+
+    </Grid>
+</Window>
