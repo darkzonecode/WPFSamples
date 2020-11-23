@@ -7,11 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Binding", "Data Bindin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BindValidation", "Data Binding\BindValidation\BindValidation.csproj", "{F404761A-C299-4F59-B8EE-990B09B2C4AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindConversion", "Data Binding\BindConversion\BindConversion.csproj", "{0B17F6B9-E3FC-481A-A4E4-06B3BD2A7E12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BindConversion", "Data Binding\BindConversion\BindConversion.csproj", "{0B17F6B9-E3FC-481A-A4E4-06B3BD2A7E12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleBinding", "Data Binding\SimpleBinding\SimpleBinding.csproj", "{E5AAEEF2-9739-4EAA-950A-288D39440A98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleBinding", "Data Binding\SimpleBinding\SimpleBinding.csproj", "{E5AAEEF2-9739-4EAA-950A-288D39440A98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingDPToDP", "Data Binding\BindingDPToDP\BindingDPToDP.csproj", "{67C81AEF-6FE5-4C69-A2B9-A9862207EAA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BindingDPToDP", "Data Binding\BindingDPToDP\BindingDPToDP.csproj", "{67C81AEF-6FE5-4C69-A2B9-A9862207EAA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingToMethod", "Data Binding\BindingToMethod\BindingToMethod.csproj", "{44E75031-0431-4E71-8894-C7096EA3BE47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{67C81AEF-6FE5-4C69-A2B9-A9862207EAA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67C81AEF-6FE5-4C69-A2B9-A9862207EAA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67C81AEF-6FE5-4C69-A2B9-A9862207EAA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44E75031-0431-4E71-8894-C7096EA3BE47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E75031-0431-4E71-8894-C7096EA3BE47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E75031-0431-4E71-8894-C7096EA3BE47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E75031-0431-4E71-8894-C7096EA3BE47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{0B17F6B9-E3FC-481A-A4E4-06B3BD2A7E12} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
 		{E5AAEEF2-9739-4EAA-950A-288D39440A98} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
 		{67C81AEF-6FE5-4C69-A2B9-A9862207EAA5} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
+		{44E75031-0431-4E71-8894-C7096EA3BE47} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81021A20-F28E-4749-B4DC-68240B8908A5}

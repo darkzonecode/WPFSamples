@@ -14,7 +14,7 @@
             <ComboBoxItem Content="Red"/>
         </ComboBox>
         <Canvas HorizontalAlignment="Left" Height="74" Margin="67,130,0,0" VerticalAlignment="Top" Width="69" 
-                Background="{Binding SelectedItem.Content, ElementName=myComboBox, Mode=OneWay}"/>
+                Background="{Binding SelectedItem.Content, ElementName=myComboBox, Mode=OneWay}" />
 
     </Grid>
 </Window>

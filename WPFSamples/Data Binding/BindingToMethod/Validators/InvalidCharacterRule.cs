@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Controls;
+
+namespace BindingToMethod.Validators
+{
+    internal class InvalidCharacterRule : ValidationRule
+    {
+        public override ValidationResult Validate(object value, CultureInfo cultureInfo)
+        {
+            var myvalue = 0.00;
+
+            try
+            {
+                if (((string)value).Length > 0)
+                    myvalue = double.Parse((string)value);
+            }
+            catch (Exception e)
+            {
+                return new ValidationResult(false, "Illegal characters or " + e.Message);
+            }
+
+            return new ValidationResult(true, null);
+        }
+    }
+}
