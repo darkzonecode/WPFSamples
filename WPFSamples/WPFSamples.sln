@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingToStringFormat", "Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayerValidation", "Data Binding\BusinessLayerValidation\BusinessLayerValidation.csproj", "{A78106B2-2E67-4B33-B5FD-230767196755}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionBinding", "Data Binding\CollectionBinding\CollectionBinding.csproj", "{27BDBF8F-053F-4F86-87AA-8460B46D02A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{A78106B2-2E67-4B33-B5FD-230767196755}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A78106B2-2E67-4B33-B5FD-230767196755}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A78106B2-2E67-4B33-B5FD-230767196755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27BDBF8F-053F-4F86-87AA-8460B46D02A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27BDBF8F-053F-4F86-87AA-8460B46D02A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27BDBF8F-053F-4F86-87AA-8460B46D02A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27BDBF8F-053F-4F86-87AA-8460B46D02A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +71,7 @@ Global
 		{44E75031-0431-4E71-8894-C7096EA3BE47} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
 		{312E611C-1B12-4DEE-AEE5-96575F5F760A} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
 		{A78106B2-2E67-4B33-B5FD-230767196755} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
+		{27BDBF8F-053F-4F86-87AA-8460B46D02A5} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81021A20-F28E-4749-B4DC-68240B8908A5}
