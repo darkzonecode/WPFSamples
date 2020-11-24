@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BindingDPToDP", "Data Bindi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingToMethod", "Data Binding\BindingToMethod\BindingToMethod.csproj", "{44E75031-0431-4E71-8894-C7096EA3BE47}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingToStringFormat", "Data Binding\BindingToStringFormat\BindingToStringFormat.csproj", "{312E611C-1B12-4DEE-AEE5-96575F5F760A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{44E75031-0431-4E71-8894-C7096EA3BE47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44E75031-0431-4E71-8894-C7096EA3BE47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44E75031-0431-4E71-8894-C7096EA3BE47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{312E611C-1B12-4DEE-AEE5-96575F5F760A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{312E611C-1B12-4DEE-AEE5-96575F5F760A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{312E611C-1B12-4DEE-AEE5-96575F5F760A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{312E611C-1B12-4DEE-AEE5-96575F5F760A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +57,7 @@ Global
 		{E5AAEEF2-9739-4EAA-950A-288D39440A98} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
 		{67C81AEF-6FE5-4C69-A2B9-A9862207EAA5} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
 		{44E75031-0431-4E71-8894-C7096EA3BE47} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
+		{312E611C-1B12-4DEE-AEE5-96575F5F760A} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81021A20-F28E-4749-B4DC-68240B8908A5}
