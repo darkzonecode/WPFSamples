@@ -26,7 +26,8 @@
 
         <TextBlock FontSize="20" Margin="5,10,0,0" Text="Formatting a string on a MultiBinding"/>
 
-        <TextBlock Margin="5" FontSize="14" TextWrapping="Wrap" Text="This ListBox contains a list of items for sale. The ListBox displays a string for each item, which includes the Description and the Price, by setting the StringFormat property on a MultiBinding."/>
+        <TextBlock Margin="5" FontSize="14" TextWrapping="Wrap" 
+                   Text="This ListBox contains a list of items for sale. The ListBox displays a string for each item, which includes the Description and the Price, by setting the StringFormat property on a MultiBinding."/>
 
         <ListBox ItemsSource="{StaticResource MyData}">
             <ListBox.ItemTemplate>
