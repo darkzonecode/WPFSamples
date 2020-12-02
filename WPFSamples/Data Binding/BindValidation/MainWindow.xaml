@@ -57,7 +57,9 @@
             <TextBox.Text>
                 <Binding Source="{StaticResource Ods}" Path="Age" UpdateSourceTrigger="PropertyChanged">
                     <Binding.ValidationRules>
+                        
                         <rules:AgeRangeRule Min="21" Max="130"/>
+
                     </Binding.ValidationRules>
                 </Binding>
             </TextBox.Text>

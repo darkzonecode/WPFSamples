@@ -32,7 +32,8 @@ namespace BindValidation.Rules
                 return new ValidationResult(false,
                     "Please enter an age in the range: " + Min + " - " + Max + ".");
             }
-            return new ValidationResult(true, null);
+
+            return ValidationResult.ValidResult;  // new ValidationResult(true, null);
         }
 
     }

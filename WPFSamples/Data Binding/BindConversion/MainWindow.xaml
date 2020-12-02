@@ -21,6 +21,7 @@
                    Text="{Binding TheDate}" 
                    TextWrapping="Wrap" 
                    VerticalAlignment="Top"/>
+        
         <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="10,76,0,0" Text="Converted data:" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBlock x:Name="textBlock3" 
                    HorizontalAlignment="Left" 

@@ -36,8 +36,10 @@ namespace SimpleBinding.Data
         // Create the OnPropertyChanged method to raise the event
         protected void OnPropertyChanged(string name)
         {
-            var handler = PropertyChanged;
-            handler?.Invoke(this, new PropertyChangedEventArgs(name));
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+
+            //var handler = PropertyChanged;
+            //handler?.Invoke(this, new PropertyChangedEventArgs(name));
         }
     }
 }

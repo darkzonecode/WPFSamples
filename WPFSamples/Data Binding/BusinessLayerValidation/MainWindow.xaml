@@ -30,12 +30,13 @@
                 the <Binding.ValidationRules> section.-->
                 <Binding Path="Age" Source="{StaticResource MyData}"
                          ValidatesOnExceptions="True"
-                         UpdateSourceTrigger="PropertyChanged" >
+                         UpdateSourceTrigger="PropertyChanged" ValidatesOnNotifyDataErrors="True" >
                     <Binding.ValidationRules>
                         <!--DataErrorValidationRule checks for validation 
                             errors raised by the IDataErrorInfo object.-->
                         <!--Alternatively, you can set ValidationOnDataErrors="True" on the Binding.-->
-                        <DataErrorValidationRule/>
+                        <DataErrorValidationRule ValidatesOnTargetUpdated="True"  />
+                        
                     </Binding.ValidationRules>
                 </Binding>
             </TextBox.Text>
