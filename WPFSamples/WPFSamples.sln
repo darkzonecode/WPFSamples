@@ -31,9 +31,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiBinding", "Data Bindin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PriorityBinding", "Data Binding\PriorityBinding\PriorityBinding.csproj", "{61037A65-183D-488B-A9DC-AC3D95365BA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateSource", "Data Binding\UpdateSource\UpdateSource.csproj", "{B493CB0D-93B4-4EEE-9216-8A57D44F8739}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpdateSource", "Data Binding\UpdateSource\UpdateSource.csproj", "{B493CB0D-93B4-4EEE-9216-8A57D44F8739}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectionalBinding", "Data Binding\DirectionalBinding\DirectionalBinding.csproj", "{1BA6B5BE-84AE-46BD-9EB1-EB33F9F26E7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectionalBinding", "Data Binding\DirectionalBinding\DirectionalBinding.csproj", "{1BA6B5BE-84AE-46BD-9EB1-EB33F9F26E7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterDetail", "Data Binding\MasterDetail\MasterDetail.csproj", "{835FEB37-3EA3-4844-8125-80EAC03153EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +103,10 @@ Global
 		{1BA6B5BE-84AE-46BD-9EB1-EB33F9F26E7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BA6B5BE-84AE-46BD-9EB1-EB33F9F26E7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BA6B5BE-84AE-46BD-9EB1-EB33F9F26E7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{835FEB37-3EA3-4844-8125-80EAC03153EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{835FEB37-3EA3-4844-8125-80EAC03153EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{835FEB37-3EA3-4844-8125-80EAC03153EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{835FEB37-3EA3-4844-8125-80EAC03153EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -121,6 +127,7 @@ Global
 		{61037A65-183D-488B-A9DC-AC3D95365BA5} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
 		{B493CB0D-93B4-4EEE-9216-8A57D44F8739} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
 		{1BA6B5BE-84AE-46BD-9EB1-EB33F9F26E7B} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
+		{835FEB37-3EA3-4844-8125-80EAC03153EF} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81021A20-F28E-4749-B4DC-68240B8908A5}
