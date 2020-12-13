@@ -20,7 +20,7 @@
             <ListBox ItemsSource="{Binding Divisions}" IsSynchronizedWithCurrentItem="True"/>
         </StackPanel>
         <StackPanel>
-            <Label Content="{Binding Divisions/Name}"/>
+            <Label Content="{Binding Divisions/Name}" />
             <ListBox ItemsSource="{Binding /Divisions/Teams}"/>
         </StackPanel>
     </DockPanel>
