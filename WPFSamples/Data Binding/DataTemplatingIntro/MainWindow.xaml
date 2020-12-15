@@ -40,13 +40,22 @@
                         <ColumnDefinition />
                     </Grid.ColumnDefinitions>
                     <TextBlock Grid.Row="0" Grid.Column="0" Text="Task Name:"/>
-                    <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding Path=TaskName}" />
+                    <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding Path=MyTaskName}" />
                     <TextBlock Grid.Row="1" Grid.Column="0" Text="Description:"/>
                     <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding Path=Description}"/>
                     <TextBlock Grid.Row="2" Grid.Column="0" Text="Priority:"/>
                     <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding Path=Priority}"/>
                 </Grid>
             </Border>
+
+            <DataTemplate.Triggers>
+                <DataTrigger Binding="{Binding Path=TaskType}">
+                    <DataTrigger.Value>
+                        <data:MyTaskType>Home</data:MyTaskType>
+                    </DataTrigger.Value>
+                    <Setter TargetName="border" Property="BorderBrush" Value="Yellow"/>
+                </DataTrigger>
+            </DataTemplate.Triggers>
         </DataTemplate>
     </Window.Resources>
     <StackPanel>

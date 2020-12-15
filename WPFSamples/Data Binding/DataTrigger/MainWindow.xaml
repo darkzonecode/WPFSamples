@@ -1,0 +1,40 @@
+﻿<Window x:Class="DataTrigger.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataTrigger"
+        xmlns:data="clr-namespace:DataTrigger.Data"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <data:Places x:Key="PlacesData"/>
+
+        <Style TargetType="ListBoxItem">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding State}" Value="WA">
+                    <Setter Property="Foreground" Value="Red"/>
+                </DataTrigger>
+
+                <MultiDataTrigger>
+                    <MultiDataTrigger.Conditions>
+                        <Condition Binding="{Binding Name}" Value="Portland"/>
+                        <Condition Binding="{Binding State}" Value="OR"/>
+                    </MultiDataTrigger.Conditions>
+                    <Setter Property="Background" Value="Cyan"/>
+                </MultiDataTrigger>
+            </Style.Triggers>
+        </Style>
+        <DataTemplate DataType="{x:Type data:Place}">
+            <Canvas Width="160" Height="20">
+                <TextBlock FontSize="12" Width="130" Canvas.Left="0" Text="{Binding Name}"/>
+                <TextBlock FontSize="12" Width="30" Canvas.Left="130" Text="{Binding State}"/>
+            </Canvas>
+        </DataTemplate>
+    </Window.Resources>
+    <StackPanel>
+        <TextBlock Text="Data trigger Sample." HorizontalAlignment="Center" FontSize="18" Margin="5" FontWeight="Bold" />
+        <ListBox Width="180" HorizontalAlignment="Center" Background="Honeydew"
+                 ItemsSource="{Binding Source={StaticResource PlacesData}}"/>
+    </StackPanel>
+</Window>

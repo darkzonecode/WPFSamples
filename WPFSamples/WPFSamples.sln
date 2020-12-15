@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Blend for Visual Studio Version 16
+# Visual Studio Version 16
 VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Binding", "Data Binding", "{6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}"
@@ -41,7 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterDetailXml", "Data Bin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropertyChangeNotification", "Data Binding\PropertyChangeNotification\PropertyChangeNotification.csproj", "{70725DA6-D037-40C1-AB56-872CA1C2A7BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTemplatingIntro", "Data Binding\DataTemplatingIntro\DataTemplatingIntro.csproj", "{1839CA39-1105-4016-B196-0A4BC295BD65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTemplatingIntro", "Data Binding\DataTemplatingIntro\DataTemplatingIntro.csproj", "{1839CA39-1105-4016-B196-0A4BC295BD65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTrigger", "Data Binding\DataTrigger\DataTrigger.csproj", "{B75C1D63-2EB3-46AB-80AF-8307E61A268F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,6 +127,10 @@ Global
 		{1839CA39-1105-4016-B196-0A4BC295BD65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1839CA39-1105-4016-B196-0A4BC295BD65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1839CA39-1105-4016-B196-0A4BC295BD65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B75C1D63-2EB3-46AB-80AF-8307E61A268F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B75C1D63-2EB3-46AB-80AF-8307E61A268F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B75C1D63-2EB3-46AB-80AF-8307E61A268F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B75C1D63-2EB3-46AB-80AF-8307E61A268F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -149,6 +155,7 @@ Global
 		{7CE3B6CA-2CFC-4B66-A050-EC3BD4025FEB} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
 		{70725DA6-D037-40C1-AB56-872CA1C2A7BF} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
 		{1839CA39-1105-4016-B196-0A4BC295BD65} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
+		{B75C1D63-2EB3-46AB-80AF-8307E61A268F} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81021A20-F28E-4749-B4DC-68240B8908A5}
