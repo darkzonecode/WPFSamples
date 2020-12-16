@@ -45,6 +45,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTemplatingIntro", "Data
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTrigger", "Data Binding\DataTrigger\DataTrigger.csproj", "{B75C1D63-2EB3-46AB-80AF-8307E61A268F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditingCollections", "Data Binding\EditingCollections\EditingCollections.csproj", "{40ABBD08-7A2F-4C26-935D-5ADCDA44DE04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -131,6 +133,10 @@ Global
 		{B75C1D63-2EB3-46AB-80AF-8307E61A268F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B75C1D63-2EB3-46AB-80AF-8307E61A268F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B75C1D63-2EB3-46AB-80AF-8307E61A268F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40ABBD08-7A2F-4C26-935D-5ADCDA44DE04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40ABBD08-7A2F-4C26-935D-5ADCDA44DE04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40ABBD08-7A2F-4C26-935D-5ADCDA44DE04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40ABBD08-7A2F-4C26-935D-5ADCDA44DE04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -156,6 +162,7 @@ Global
 		{70725DA6-D037-40C1-AB56-872CA1C2A7BF} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
 		{1839CA39-1105-4016-B196-0A4BC295BD65} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
 		{B75C1D63-2EB3-46AB-80AF-8307E61A268F} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
+		{40ABBD08-7A2F-4C26-935D-5ADCDA44DE04} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81021A20-F28E-4749-B4DC-68240B8908A5}
