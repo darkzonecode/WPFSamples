@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grouping", "Data Binding\Gr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HierarchicalDataTemplate", "Data Binding\HierarchicalDataTemplate\HierarchicalDataTemplate.csproj", "{0B004170-30DD-4061-87D5-C7A484FA57C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Data Binding\Linq\Linq.csproj", "{22953A35-2934-4787-92C5-3A84D6179E26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -149,6 +151,10 @@ Global
 		{0B004170-30DD-4061-87D5-C7A484FA57C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B004170-30DD-4061-87D5-C7A484FA57C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B004170-30DD-4061-87D5-C7A484FA57C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22953A35-2934-4787-92C5-3A84D6179E26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22953A35-2934-4787-92C5-3A84D6179E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22953A35-2934-4787-92C5-3A84D6179E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22953A35-2934-4787-92C5-3A84D6179E26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -177,6 +183,7 @@ Global
 		{40ABBD08-7A2F-4C26-935D-5ADCDA44DE04} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
 		{6B6AEDBA-818E-42D5-868B-8F83A18DE60D} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
 		{0B004170-30DD-4061-87D5-C7A484FA57C6} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
+		{22953A35-2934-4787-92C5-3A84D6179E26} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81021A20-F28E-4749-B4DC-68240B8908A5}
