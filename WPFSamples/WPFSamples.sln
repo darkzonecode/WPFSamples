@@ -57,6 +57,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortFilter", "Data Binding\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidateItemSample", "Data Binding\ValidateItemSample\ValidateItemSample.csproj", "{7C07B102-FEBA-4F56-9F8C-2B0B5EDEB947}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidateItemsInItemsControl", "Data Binding\ValidateItemsInItemsControl\ValidateItemsInItemsControl.csproj", "{59E13E5A-69ED-4F22-90E0-F3E24F51A5C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -167,6 +169,10 @@ Global
 		{7C07B102-FEBA-4F56-9F8C-2B0B5EDEB947}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C07B102-FEBA-4F56-9F8C-2B0B5EDEB947}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C07B102-FEBA-4F56-9F8C-2B0B5EDEB947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59E13E5A-69ED-4F22-90E0-F3E24F51A5C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59E13E5A-69ED-4F22-90E0-F3E24F51A5C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59E13E5A-69ED-4F22-90E0-F3E24F51A5C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59E13E5A-69ED-4F22-90E0-F3E24F51A5C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -198,6 +204,7 @@ Global
 		{22953A35-2934-4787-92C5-3A84D6179E26} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
 		{2F0CBD1D-001A-4439-BFDA-EA5F38BE3AAC} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
 		{7C07B102-FEBA-4F56-9F8C-2B0B5EDEB947} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
+		{59E13E5A-69ED-4F22-90E0-F3E24F51A5C6} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81021A20-F28E-4749-B4DC-68240B8908A5}
