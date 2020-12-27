@@ -60,7 +60,7 @@
 
         <Label Name="validationErrorReport" 
              Content="{Binding RelativeSource={RelativeSource Self}, 
-           Path=(Validation.ValidationAdornerSiteFor).(Validation.Errors)[0].ErrorContent , Mode=OneWay}"
+           Path=(Validation.ValidationAdornerSiteFor).(Validation.Errors)[0].ErrorContent }"
            Margin="5" Foreground="Red" HorizontalAlignment="Center"/>
 
         <Button Content="Add Customer" Click="AddCustomer_Click" HorizontalAlignment="Center"/>
