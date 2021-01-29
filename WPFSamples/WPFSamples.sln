@@ -59,9 +59,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidateItemSample", "Data 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidateItemsInItemsControl", "Data Binding\ValidateItemsInItemsControl\ValidateItemsInItemsControl.csproj", "{59E13E5A-69ED-4F22-90E0-F3E24F51A5C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlDataSource", "Data Binding\XmlDataSource\XmlDataSource.csproj", "{6996CBB7-F269-4E36-9F8F-899734B940D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XmlDataSource", "Data Binding\XmlDataSource\XmlDataSource.csproj", "{6996CBB7-F269-4E36-9F8F-899734B940D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlnsBind", "XmlnsBind\XmlnsBind.csproj", "{D522B7E3-0583-44C9-9FF0-04C1DA8444D0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StylesAndTemplates", "StylesAndTemplates", "{AAEFF28D-71CA-426A-90CB-D8B0B0DCF996}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventTriggers", "StylesAndTemplates\EventTriggers\EventTriggers.csproj", "{9B0B327E-4055-49E3-9CD0-22DEB9DDCEA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -181,10 +183,10 @@ Global
 		{6996CBB7-F269-4E36-9F8F-899734B940D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6996CBB7-F269-4E36-9F8F-899734B940D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6996CBB7-F269-4E36-9F8F-899734B940D4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D522B7E3-0583-44C9-9FF0-04C1DA8444D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D522B7E3-0583-44C9-9FF0-04C1DA8444D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D522B7E3-0583-44C9-9FF0-04C1DA8444D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D522B7E3-0583-44C9-9FF0-04C1DA8444D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B0B327E-4055-49E3-9CD0-22DEB9DDCEA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B0B327E-4055-49E3-9CD0-22DEB9DDCEA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B0B327E-4055-49E3-9CD0-22DEB9DDCEA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B0B327E-4055-49E3-9CD0-22DEB9DDCEA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -218,7 +220,7 @@ Global
 		{7C07B102-FEBA-4F56-9F8C-2B0B5EDEB947} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
 		{59E13E5A-69ED-4F22-90E0-F3E24F51A5C6} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
 		{6996CBB7-F269-4E36-9F8F-899734B940D4} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
-		{D522B7E3-0583-44C9-9FF0-04C1DA8444D0} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
+		{9B0B327E-4055-49E3-9CD0-22DEB9DDCEA8} = {AAEFF28D-71CA-426A-90CB-D8B0B0DCF996}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81021A20-F28E-4749-B4DC-68240B8908A5}
