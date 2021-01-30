@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
+# Blend for Visual Studio Version 16
 VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Binding", "Data Binding", "{6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}"
@@ -63,7 +63,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XmlDataSource", "Data Bindi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StylesAndTemplates", "StylesAndTemplates", "{AAEFF28D-71CA-426A-90CB-D8B0B0DCF996}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventTriggers", "StylesAndTemplates\EventTriggers\EventTriggers.csproj", "{9B0B327E-4055-49E3-9CD0-22DEB9DDCEA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventTriggers", "StylesAndTemplates\EventTriggers\EventTriggers.csproj", "{9B0B327E-4055-49E3-9CD0-22DEB9DDCEA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentControlStyle", "StylesAndTemplates\ContentControlStyle\ContentControlStyle.csproj", "{29F46A19-1916-437B-B4CD-C1370B8C9B83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -187,6 +189,10 @@ Global
 		{9B0B327E-4055-49E3-9CD0-22DEB9DDCEA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B0B327E-4055-49E3-9CD0-22DEB9DDCEA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B0B327E-4055-49E3-9CD0-22DEB9DDCEA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29F46A19-1916-437B-B4CD-C1370B8C9B83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29F46A19-1916-437B-B4CD-C1370B8C9B83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29F46A19-1916-437B-B4CD-C1370B8C9B83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29F46A19-1916-437B-B4CD-C1370B8C9B83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -221,6 +227,7 @@ Global
 		{59E13E5A-69ED-4F22-90E0-F3E24F51A5C6} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
 		{6996CBB7-F269-4E36-9F8F-899734B940D4} = {6E665F17-C9C3-4B13-AD09-D0FFB451CAF1}
 		{9B0B327E-4055-49E3-9CD0-22DEB9DDCEA8} = {AAEFF28D-71CA-426A-90CB-D8B0B0DCF996}
+		{29F46A19-1916-437B-B4CD-C1370B8C9B83} = {AAEFF28D-71CA-426A-90CB-D8B0B0DCF996}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81021A20-F28E-4749-B4DC-68240B8908A5}
