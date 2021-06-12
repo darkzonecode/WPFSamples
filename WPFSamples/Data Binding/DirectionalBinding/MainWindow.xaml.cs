@@ -50,6 +50,7 @@ namespace DirectionalBinding
             infoText.Text += DateTime.Now.ToLongDateString();
             infoText.Text += " at ";
             infoText.Text += DateTime.Now.ToLongTimeString();
+            
         }
     }
 }

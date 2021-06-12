@@ -59,6 +59,7 @@
              DisplayMemberPath="CityName" Name="lb" HorizontalAlignment="Left" VerticalAlignment="Top" Width="330" Height="362" Margin="10,10,0,0">
             <ListBox.GroupStyle>
                 <x:Static Member="GroupStyle.Default"/>
+                <!--<GroupStyle/>-->
             </ListBox.GroupStyle>
         </ListBox>
         <ListBox ItemsSource="{Binding Source={StaticResource MySortedTasks}}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="334" Height="362" Margin="359,10,0,0" />

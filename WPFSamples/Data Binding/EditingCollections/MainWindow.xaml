@@ -40,6 +40,7 @@
             <Button Name="add" Click="Add_Click">Add</Button>
             <Button Name="edit" Click="Edit_Click">Edit</Button>
             <Button Name="remove" Click="Remove_Click">Remove</Button>
+
         </StackPanel>
     </StackPanel>
 

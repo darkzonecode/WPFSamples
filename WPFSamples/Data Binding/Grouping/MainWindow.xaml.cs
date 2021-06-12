@@ -42,6 +42,8 @@ namespace Grouping
         {
             _myView = (CollectionView)CollectionViewSource.GetDefaultView(myItemsControl.ItemsSource);
             _myView.GroupDescriptions.Clear();
+
+            
         }
     }
 }
